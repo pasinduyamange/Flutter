@@ -18,8 +18,6 @@ void main() {
     create: (context) => ApplicationState(),
     builder: ((context, child) => const App()),
   ));
-
-  runApp(const App());
 }
 
 class App extends StatelessWidget {
